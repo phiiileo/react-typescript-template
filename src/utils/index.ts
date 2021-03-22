@@ -1,5 +1,5 @@
 export const GenerateReference = (): string => {
-  const ref = 'GASIFY' + new Date().getMilliseconds().toString();
+  const ref = 'Ref' + new Date().getMilliseconds().toString();
   return ref;
 };
 
